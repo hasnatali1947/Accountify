@@ -14,6 +14,9 @@ module.exports = {
         base: colors.stone,
         primary: colors.purple,
       },
+      screens: {
+        xs: "400px", // ✅ this is crucial
+      },
       borderColor: {
         default: colors.stone["300"],
       },

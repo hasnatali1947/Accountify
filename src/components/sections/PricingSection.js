@@ -25,15 +25,17 @@ export function PricingSection({
           <Tabs
             value={tenure}
             onChange={setTenure}
-            // options={["monthly", "yearly"]}
+          // options={["monthly", "yearly"]}
           />
           <div className="text-sm mt-4">No hidden fees. Choose the plan that fits your needs and upgrade anytime.</div>
         </div>
-        <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-6">
-          {pricing.map((price, index) => (
-            <PricingCard key={index} {...price} tenure={tenure} />
-          ))}
-        </div>
+        <div className="w-full flex justify-center">
+  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+    {pricing.map((price, index) => (
+      <PricingCard key={index} {...price} tenure={tenure} />
+    ))}
+  </div>
+</div>
       </div>
     </section>
   );

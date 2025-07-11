@@ -8,28 +8,6 @@ const whatsappButton = () => {
 
 
 export const pricing = [
-  // {
-  //   name: "Free",
-  //   description: "For small teams",
-  //   value: {
-  //     monthly: 0,
-  //     yearly: 0,
-  //   },
-  //   unit: "per user/month",
-  //   currency: "$",
-  //   features: [
-  //     "Unlimited users",
-  //     "Unlimited projects",
-  //     "Unlimited storage",
-  //     "Unlimited support",
-  //   ],
-  //   button: {
-  //     label: "Get started",
-  //     href: "#",
-  //     color: "light",
-  //     icon: "tabler:arrow-right",
-  //   },
-  // },
   {
     name: "Without Gmail",
     // description: "For growing teams",

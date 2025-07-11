@@ -11,7 +11,7 @@ export function Header({ logo, links, buttons, className, ...rest }) {
     <header className="fixed w-full bg-base-50/50 dark:bg-base-950/50 backdrop-blur-xl z-10">
       <nav
         className={cn(
-          "relative h-14 container px-0 mx-auto border-b border-base flex flex-wrap justify-start  items-center gap-4 lg:gap-8",
+          "relative h-14 container px-4 mx-auto border-b border-base flex items-center justify-between",
           className
         )}
         {...rest}
@@ -27,7 +27,7 @@ export function Header({ logo, links, buttons, className, ...rest }) {
           className={cn(
             "hidden md:block md:w-auto",
             open &&
-              "block absolute top-14 m-2 right-0 w-2/3 border border-base dark:border-base-900 rounded-lg overflow-hidden bg-base-50 dark:bg-base-900 shadow-xl"
+            "block absolute top-14 m-2 right-0 w-2/3 border border-base dark:border-base-900 rounded-lg overflow-hidden bg-base-50 dark:bg-base-900 shadow-xl"
           )}
         >
           <ul className="font-medium flex flex-col gap-2 p-4 md:p-0 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
@@ -47,18 +47,24 @@ export function Header({ logo, links, buttons, className, ...rest }) {
             ))}
           </ul>
         </div>
-        <div className="flex gap-2 ml-auto">
-          <ThemeSwitch />
+        <div className="flex items-center gap-2 ml-auto text-xs xs:text-sm">
+          <ThemeSwitch className="scale-90 xs:scale-100" />
           {buttons.map((button, index) => (
-            <Button key={index} {...button} />
+            <Button
+              key={index}
+              {...button}
+              className="px-3 py-1 text-xs xs:text-sm"
+            />
           ))}
+          <Button
+            icon={open ? "tabler:x" : "tabler:menu-2"}
+            color="transparent"
+            className="p-2"
+            onClick={() => setOpen(!open)}
+          />
         </div>
-        <Button
-          icon={open ? "tabler:x" : "tabler:menu-2"}
-          color="transparent"
-          className="p-2 md:hidden"
-          onClick={() => setOpen(!open)}
-        />
+
+
       </nav>
     </header>
   );

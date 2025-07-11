@@ -23,4 +23,8 @@ export const faqs = [
     title: "What if I face an issue after buying?",
     body: "💬 We offer after-sale support. Just message us anytime if you need help.",
   },
+  {
+    title: "Can this account be linked to Payoneer in Pakistan?",
+    body: "🌍 Yes, you can link this TikTok UK account with your Payoneer account in Pakistan without any issue.",
+  },
 ];

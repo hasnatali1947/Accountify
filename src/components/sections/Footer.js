@@ -9,7 +9,7 @@ export function Footer({ copyright, logo, links, social, ...rest }) {
       <div className="container px-4 mx-auto">
         <div
           className={cn(
-            "flex flex-col md:flex-row justify-between items-center gap-4 py-6"
+            "flex flex-col md:flex-row justify-between items-center gap-4 py-4 xs:py-6"
           )}
         >
           <img
@@ -26,13 +26,16 @@ export function Footer({ copyright, logo, links, social, ...rest }) {
           </div>
           <SocialLinks links={social} />
         </div>
-        
-        <div className="border-t border-base py-4 text-center flex justify-between">
-          <p className="text-sm">&copy; {copyright}</p>
-          <span className="text-sm text-muted italic">
+
+        <div className="border-t border-base py-2 xs:py-4 text-center flex flex-col xs:flex-row items-center justify-between gap-1 text-[11px] xs:text-sm">
+          <p className="text-xs xs:text-sm">&copy; {copyright}</p>
+          <span className="text-xs xs:text-sm text-muted italic">
             Easy Paise : 0315-2323402
-          </span> 
-          <p className="text-sm">Developed by Accountify <a href="" className="text-sm">ThemeWagon</a></p>
+          </span>
+          <p className="text-xs xs:text-sm">
+            Developed by Accountify{" "}
+            
+          </p>
         </div>
       </div>
     </footer>

@@ -9,13 +9,17 @@ export function TestimonialCard(props) {
           className="size-9 rounded-full ring-3 ring-primary-300 border-burple-500"
         />
         <div className="flex flex-col gap-1">
-          <h2 className="text-base font-display text-title font-semibold leading-none">
+          <h2 className="text-lg sm:text-xl max-[400px]:text-base font-display text-title font-semibold leading-none">
             {props.name}
           </h2>
-          <span className="text-xs leading-none text-muted">{props.title}</span>
+          <span className="text-sm sm:text-base max-[400px]:text-xs leading-none text-muted">
+            {props.title}
+          </span>
         </div>
       </div>
-      <p className="text-base-600 font-body mt-4">{props.testimonial}</p>
+      <p className="text-base sm:text-lg max-[400px]:text-sm text-base-600 font-body mt-4">
+        {props.testimonial}
+      </p>
     </div>
   );
 }
