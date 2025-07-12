@@ -22,6 +22,7 @@ export const pricing = [
       "Login detail & recovery",
       "100% working guarantee",
       "Delivered within 30 minutes",
+      "Payment accepted via Easypaisa & JazzCash",
     ],
     button: {
       label: "WhatsApp",
@@ -44,6 +45,7 @@ export const pricing = [
       "100% working guarantee",
       "Delivered within 30-45 minutes",
       "We can also create Gmail for you (on request)",
+      "Payment accepted via Easypaisa & JazzCash",
     ],
     button: {
       label: "WhatsApp",

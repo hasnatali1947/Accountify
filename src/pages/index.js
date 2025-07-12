@@ -133,6 +133,7 @@ export default function Home() {
             color: "primary",
             variant: "link",
             icon: "tabler:arrow-right",
+            onClick: whatsappButton,
           },
         ]}
         faqs={faqs}

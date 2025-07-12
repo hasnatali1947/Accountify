@@ -20,7 +20,7 @@ export function Header({ logo, links, buttons, className, ...rest }) {
           <img
             src={logo.src}
             alt={logo.alt}
-            className="h-10 w-auto hover:animate-spin dark:invert"
+            className="h-10 w-auto dark:invert"
           />
         </a>
         <div
@@ -59,9 +59,10 @@ export function Header({ logo, links, buttons, className, ...rest }) {
           <Button
             icon={open ? "tabler:x" : "tabler:menu-2"}
             color="transparent"
-            className="p-2"
+            className="p-2 md:hidden"
             onClick={() => setOpen(!open)}
           />
+
         </div>
 
 

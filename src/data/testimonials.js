@@ -37,7 +37,7 @@ export const testimonials = [
   {
     name: "Shah fahad",
     title: "Front-end developer",
-    avatar: "shahfahad.jpg",
+    avatar: "https://i.pravatar.cc/150?img=3",
     testimonial:
       "Bought an account for my store’s TikTok. It’s UK-based and works perfectly with ads. Super fast delivery too!",
   },
