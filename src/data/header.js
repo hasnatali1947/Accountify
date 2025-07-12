@@ -35,7 +35,7 @@ export const header = {
     {
       label: "WhatsApp: +92 3369005380",
       href: "#",
-      color: "transparent",
+      color: "dark",
       size: "small",
       onClick: whatsappButton,
     },

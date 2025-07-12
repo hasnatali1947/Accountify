@@ -10,15 +10,15 @@ const whatsappButton = () => {
 export const pricing = [
   {
     name: "Without Gmail",
-    // description: "For growing teams",
-    value: {
-      // monthly: 15,
-      yearly: 500,
+    originalValue: {
+      yearly: 1000,
     },
-    // unit: "per user/month",
+    value: {
+      yearly: 550,
+    },
     currency: "Rs",
     features: [
-      "Real Tiktok UK accout",
+      "Real TikTok UK account",
       "Login detail & recovery",
       "100% working guarantee",
       "Delivered within 30 minutes",
@@ -26,19 +26,20 @@ export const pricing = [
     button: {
       label: "WhatsApp",
       href: "#",
-      // icon: "tabler:rocket",
       onClick: whatsappButton,
     },
   },
   {
     name: "With Gmail",
-    // description: "For large teams",
+    originalValue: {
+      yearly: 1500,
+    },
     value: {
-      yearly: 600,
+      yearly: 830,
     },
     currency: "Rs",
     features: [
-      "Real Tiktok UK accout",
+      "Real TikTok UK account",
       "Login detail & recovery",
       "100% working guarantee",
       "Delivered within 30-45 minutes",
@@ -48,7 +49,6 @@ export const pricing = [
       label: "WhatsApp",
       href: "#",
       color: "dark",
-      // icon: "tabler:mail",
       onClick: whatsappButton,
     },
   },

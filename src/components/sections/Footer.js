@@ -30,7 +30,7 @@ export function Footer({ copyright, logo, links, social, ...rest }) {
         <div className="border-t border-base py-2 xs:py-4 text-center flex flex-col xs:flex-row items-center justify-between gap-1 text-[11px] xs:text-sm">
           <p className="text-xs xs:text-sm">&copy; {copyright}</p>
           <span className="text-xs xs:text-sm text-muted italic">
-            Easy Paise : 0315-2323402
+            {/* Easy Paise : 0315-2323402 */}
           </span>
           <p className="text-xs xs:text-sm">
             Developed by Accountify{" "}

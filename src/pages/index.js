@@ -58,11 +58,11 @@ export default function Home() {
 
         ]}
         image={{
-          src: "./tablet-mockup.png",
+          src: "./mainpic.png",
           alt: "Product Screenshot on Tablet",
           className: "w-full h-auto",
         }}
-        clientsLabel="Proven Track Record with 10,000+ Happy Customers"
+        clientsLabel="Proven Track Record with 200+ Happy Customers"
       // clients={clients}
       />
       <FeatureSection
@@ -116,10 +116,10 @@ export default function Home() {
         }}
         testimonials={testimonials}
         button={{
-          icon: "tabler:brand-x",
-          label: "Share Your Feedback on",
-          href: "#",
-          color: "white",
+          // icon: "tabler:brand-x",
+          // label: "Share Your Feedback on",
+          // href: "#",
+          color: "transparent",
         }}
       />
       <FaqSection

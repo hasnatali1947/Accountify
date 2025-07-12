@@ -8,7 +8,7 @@ export function TestimonialCard(props) {
           alt={props.name}
           className="size-9 rounded-full ring-3 ring-primary-300 border-burple-500"
         />
-        <div className="flex flex-col gap-1">
+        <div className="flex flex-col">
           <h2 className="text-lg sm:text-xl max-[400px]:text-base font-display text-title font-semibold leading-none">
             {props.name}
           </h2>
