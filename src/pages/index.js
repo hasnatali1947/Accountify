@@ -44,7 +44,7 @@ export default function Home() {
         badge={{
           href: "#",
           icon: "tabler:arrow-right",
-          label: "😻 Learn What's New",
+          label: "😻 Exclusive Offer",
         }}
         title="Get a Verified TikTok UK Account – Fast, Safe, and Ready to Grow!"
         description="Get a Verified TikTok UK Account – Fast, Safe, and Ready to Grow!"

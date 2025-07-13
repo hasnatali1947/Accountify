@@ -21,7 +21,7 @@ export const pricing = [
       "Real TikTok UK account",
       "Login detail & recovery",
       "100% working guarantee",
-      "Delivered within 30 minutes",
+      "Delivered within 30 minutes, after payment confirmation",
       "Payment accepted via Easypaisa & JazzCash",
     ],
     button: {
@@ -43,8 +43,8 @@ export const pricing = [
       "Real TikTok UK account",
       "Login detail & recovery",
       "100% working guarantee",
-      "Delivered within 30-45 minutes",
-      "We can also create Gmail for you (on request)",
+      "Delivered within 30-45 minutes, after payment confirmation",
+      "Create Gmail as well",
       "Payment accepted via Easypaisa & JazzCash",
     ],
     button: {

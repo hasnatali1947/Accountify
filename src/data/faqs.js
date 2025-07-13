@@ -16,8 +16,8 @@ export const faqs = [
     body: "⚠️ No. These are clean accounts with no bots or spam. Just use them normally.",
   },
   {
-    title: "6. What payment methods do you accept?",
-    body: "💳 We accept easy paisa, jezz cash, and all pakistani accounts",
+    title: "What payment methods do you accept?",
+    body: "💳 We accept easy paisa, jazz cash, and all pakistani accounts",
   },
   {
     title: "What if I face an issue after buying?",
