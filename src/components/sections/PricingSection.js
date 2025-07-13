@@ -1,8 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React, { useState } from "react";
 import { SectionHeading } from "#/SectionHeading";
 import { Tabs } from "#/base";
 import { PricingCard } from "#/cards";
+import ProofModal from "../proofModel";
+// import { ProofModel } from "#/ProofModal"
 
 export function PricingSection({
   title,
@@ -12,6 +14,16 @@ export function PricingSection({
   ...rest
 }) {
   const [tenure, setTenure] = React.useState("yearly");
+  const [isModalOpen, setModalOpen] = useState(false);
+  const [selectedImages, setSelectedImages] = useState([]);
+
+  // Combine all images from both plans
+  const allProofImages = pricing.flatMap((plan) => plan.proofImages || []);
+
+  const handleOpenModal = () => {
+    setSelectedImages(allProofImages);
+    setModalOpen(true);
+  };
   return (
     <section className="bg-base-100 dark:bg-base-900 py-24" {...rest}>
       <div className="container px-4 mx-auto min-h-screen">
@@ -36,6 +48,22 @@ export function PricingSection({
             ))}
           </div>
         </div>
+
+        {/* Single Proof Button */}
+        <div className="text-center mt-8">
+          <button
+            onClick={handleOpenModal}
+            className="underline text-sm text-blue-600 hover:text-blue-800"
+          >
+            🔍 See Proof
+          </button>
+        </div>
+
+        <ProofModal
+          open={isModalOpen}
+          onClose={() => setModalOpen(false)}
+          images={selectedImages}
+        />
       </div>
     </section>
   );

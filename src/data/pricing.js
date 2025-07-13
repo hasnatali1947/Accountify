@@ -16,6 +16,7 @@ export const pricing = [
     value: {
       yearly: 550,
     },
+    proofImages: ["/proof1.jpg", "/proof2.jpg", "/proof3.jpg", "/proof4.jpg"],
     currency: "Rs",
     features: [
       "Real TikTok UK account",
