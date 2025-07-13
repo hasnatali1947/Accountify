@@ -72,11 +72,11 @@ export default function Home() {
         features={features.slice(9, 19)}
       />
       <LargeFeatureSection
-        title="🏆 Creator Award Program"
-        description="Join our Creator Award Program and get recognized for your growth and creativity!"
+        title="🏆 Hear for our Customer"
+        description="I got my TikTok UK Account within 30 minutes and it was exactly as promised."
         list={features.slice(4, 9)}
         image={{
-          src: "./mob1.png",
+          src: "./proof-image.png",
           alt: "Image",
           className:
             "w-full aspect-square object-contain rotate-6 hover:rotate-0 duration-300 ease-in-out",

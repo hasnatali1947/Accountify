@@ -20,27 +20,27 @@ export const features = [
     icon: "tabler:headset",
   },
   {
-    title: "💸 Monthly Bonuses for viral videos",
+    title: "⏱️ We delivered within 30 Minutes",
     // description: "Get detailed insights and analytics.",
     icon: "tabler:chart-bar",
   },
   {
-    title: "📈 Exclusive tools to boost engagement",
+    title: "✔️ Verified TikTok Account provided",
     // description: "Customize your branding and make it yours.",
     icon: "tabler:brand-appstore",
   },
   {
-    title: "🎁 Free TikTok UK accounts for top creators",
+    title: "🌐 Used without VPN",
     // description: "Customize your branding and make it yours.",
     icon: "tabler:brand-appstore",
   },
   {
-    title: "🤝 Partner with us for affiliate income",
+    title: "💸 Payouts to Payoneer",
     // description: "Customize your branding and make it yours.",
     icon: "tabler:brand-appstore",
   },
   {
-    title: "🎖️ Eligibility for real TikTok awards & account upgrades",
+    title: "🏆 Perfect for Earning",
     // description: "Customize your branding and make it yours.",
     icon: "tabler:brand-appstore",
   },
