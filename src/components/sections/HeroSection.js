@@ -50,7 +50,7 @@ export function HeroSection({
             />
           </div>
 
-          <div className="text-sm">{clientsLabel}</div>
+          <div className="text-sm mb-8 font-bold">{clientsLabel}</div>
           <Brands clients={clients} />
 
           {/* ✅ Modal */}

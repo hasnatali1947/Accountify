@@ -11,7 +11,7 @@ export const FeatureCard = ({
   return (
     <div
       className={cn(
-        "flex flex-row justify-start items-start gap-4 p-6 rounded-lg",
+        "flex flex-row items-center gap-4 p-6 rounded-lg",
         className
       )}
     >

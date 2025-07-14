@@ -26,14 +26,14 @@ export function PricingSection({
   };
   return (
     <section className="bg-base-100 dark:bg-base-900 py-24" {...rest}>
-      <div className="container px-4 mx-auto min-h-screen">
+      <div className="container px-4 mx-auto">
         <SectionHeading
           align="center"
           title={title}
           description={description}
           badge={badge}
         />
-        <div className="text-center my-10">
+        <div className="text-center mb-10">
           <Tabs
             value={tenure}
             onChange={setTenure}

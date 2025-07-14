@@ -8,10 +8,10 @@ import { ThemeSwitch } from "#/ThemeSwitch";
 export function Header({ logo, links, buttons, className, ...rest }) {
   const [open, setOpen] = useState(false);
   return (
-    <header className="fixed w-full bg-base-50/50 dark:bg-base-950/50 backdrop-blur-xl z-10">
+    <header className="fixed w-full bg-base-50/50 dark:bg-base-950/50 backdrop-blur-xl z-10 border-b border-base">
       <nav
         className={cn(
-          "relative h-14 container px-4 mx-auto border-b border-base flex items-center justify-between",
+          "relative h-14 container px-4 mx-auto flex items-center justify-between",
           className
         )}
         {...rest}
@@ -30,7 +30,7 @@ export function Header({ logo, links, buttons, className, ...rest }) {
             "block absolute top-14 m-2 right-0 w-2/3 border border-base dark:border-base-900 rounded-lg overflow-hidden bg-base-50 dark:bg-base-900 shadow-xl"
           )}
         >
-          <ul className="font-medium flex flex-col gap-2 p-4 md:p-0 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
+          <ul className="font-medium flex flex-col gap-2 ml-2 p-4 md:p-0 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
             {links.map((link, index) => (
               <a
                 key={index}
