@@ -72,7 +72,7 @@ export default function Home() {
         features={features.slice(9, 19)}
       />
       <LargeFeatureSection
-        title="🏆 Hear for our Customer"
+        title="🏆 Hear from our Customer"
         description="I got my TikTok UK Account within 30 minutes and it was exactly as promised."
         list={features.slice(4, 9)}
         image={{
