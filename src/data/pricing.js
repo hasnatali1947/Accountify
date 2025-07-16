@@ -26,7 +26,7 @@ export const pricing = [
       "Payment accepted via Easypaisa & JazzCash",
     ],
     button: {
-      label: "WhatsApp",
+      label: "Order Now",
       href: "#",
       onClick: whatsappButton,
     },
@@ -49,7 +49,7 @@ export const pricing = [
       "Payment accepted via Easypaisa & JazzCash",
     ],
     button: {
-      label: "WhatsApp",
+      label: "Order Now",
       href: "#",
       color: "dark",
       onClick: whatsappButton,
