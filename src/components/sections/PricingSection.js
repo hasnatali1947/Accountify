@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { SectionHeading } from "#/SectionHeading";
 import { Tabs } from "#/base";
 import { PricingCard } from "#/cards";
-import ProofModal from "../proofModel";
+import ProofModal from "../ProofModel";
 // import { ProofModel } from "#/ProofModal"
 
 export function PricingSection({
