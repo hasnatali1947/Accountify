@@ -112,7 +112,7 @@ export default function Home() {
         badge={{
           leading: true,
           icon: "tabler:heart",
-          label: "TESTIMONIALS",
+          label: "Reviews",
         }}
         testimonials={testimonials}
         button={{
