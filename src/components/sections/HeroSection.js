@@ -63,7 +63,7 @@ export function HeroSection({
                 >
                   &times;
                 </button>
-                <h2 className="text-2xl font-bold mb-2">🎁 July Offer!</h2>
+                <h2 className="text-2xl font-bold mb-2">🎁 August Offer!</h2>
                 <p className="text-sm text-muted">
                   Buy <b>2 TikTok UK Accounts</b> and get <b>1 FREE</b> 🎉
                 </p>
