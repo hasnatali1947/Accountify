@@ -11,10 +11,10 @@ export const pricing = [
   {
     name: "With Gmail",
     originalValue: {
-      yearly: 2000,
+      yearly: 1100,
     },
     value: {
-      yearly: 1000,
+      yearly: 550,
     },
     proofImages: ["/proof1.jpg", "/proof2.jpg", "/proof3.jpg", "/proof4.jpg"],
     currency: "Rs",
