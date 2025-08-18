@@ -30,29 +30,29 @@ export const pricing = [
       href: "#",
       onClick: whatsappButton,
     },
-  }
-  // {
-  //   name: "With Gmail",
-  //   originalValue: {
-  //     yearly: 1500,
-  //   },
-  //   value: {
-  //     yearly: 830,
-  //   },
-  //   currency: "Rs",
-  //   features: [
-  //     "Real TikTok UK account",
-  //     "Login detail & recovery",
-  //     "100% working guarantee",
-  //     "Delivered within 30-45 minutes, after payment confirmation",
-  //     "Create Gmail as well",
-  //     "Payment accepted via Easypaisa & JazzCash",
-  //   ],
-  //   button: {
-  //     label: "WhatsApp",
-  //     href: "#",
-  //     color: "dark",
-  //     onClick: whatsappButton,
-  //   },
-  // },
+  },
+  {
+    name: "Social Media Package",
+    originalValue: {
+      yearly: 25,
+    },
+    value: {
+      yearly: 10,
+    },
+    currency: "Rs",
+    features: [
+      "Post likes to Tiktok, Twitter, Facebook, Instagram",
+      "Followers to TikTok, Twitter, Facebook, Instagram",
+      "Views and Engagements to TikTok, Twitter, Facebook, Instagram",
+      "Delivered within hours, after payment confirmation",
+      "Contact for exact requirements",
+      "Payment accepted via Easypaisa & JazzCash",
+    ],
+    button: {
+      label: "WhatsApp",
+      href: "#",
+      color: "dark",
+      onClick: whatsappButton,
+    },
+  },
 ];

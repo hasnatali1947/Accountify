@@ -42,7 +42,7 @@ export function PricingSection({
           <div className="text-sm mt-4">No hidden fees. Choose the plan that fits your needs and upgrade anytime.</div>
         </div>
         <div className="w-full flex justify-center">
-          <div className="grid grid-cols-1 sm:grid-cols-1 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {pricing.map((price, index) => (
               <PricingCard key={index} {...price} tenure={tenure} />
             ))}
